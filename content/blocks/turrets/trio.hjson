@@ -1,0 +1,36 @@
+type: PowerTurret
+size: 3
+health: 1600
+range: 560
+armor: 100
+rotateSpeed: 3.8
+reload: 80
+shoot: {
+  type: ShootBarrel
+  shots: 3
+  shotDelay: 3
+   barrels: [
+    8, 0, 0, 
+    0, 0, 0, 
+    -8, 0, 0
+  ]
+}
+consumes: {
+  power: 5.7
+} 
+recoil: 3
+shootSound: Turrets/bang
+shootType: {
+  type: LaserBulletType
+  length: 540
+  width: 50
+  damage: 288
+}
+category: turret
+research: instant
+
+requirements: [
+  ant-steel/400
+  silicon/200
+  plastanium/150
+]

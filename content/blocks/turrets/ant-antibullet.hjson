@@ -1,0 +1,27 @@
+type: PointDefenseTurret
+name: A.N.T Anti-Bullet
+description: "Destroys Projectiles and Doesnt affect lasers."
+rotateSpeed: 17.5
+fogRadius: 147.5
+hasPower: true
+size: 1
+
+bulletDamage: 32
+shootLength: 4.5
+reload: 0.5
+health: 1320
+range: 740
+armor: 30
+
+consumes: {
+    power: 0.4
+}
+
+category: turret
+research: ant-sentry
+
+requirements: [
+    thorium/64
+    titanium/45
+    ant-steel/32
+]

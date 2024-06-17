@@ -1,0 +1,489 @@
+{
+  "groundLayer": 75,
+  "type": "legs",
+  "drag": 0.4,
+  "speed": 2.8,
+  "hitSize": 34,
+  "range": 840,
+  "maxRange": 840,
+  "aimDst": 840,
+  "health": 32160,
+  "mineSpeed": 25,
+  "buildSpeed": 5.6,
+  "mineTier": 15,
+  "itemCapacity": 1500,
+  "armor": 75,
+  "faceTarget": true,
+  "rotateSpeed": 3,
+  "engineSize": 4,
+  "engineOffset": 8,
+  "flying": false,
+  "targetAir": true,
+  "legSpeed": 0.09,
+  "maxStretch": 1.5,
+  "legCount": 8,
+  "legBaseOffset": 15,
+  "legLengthScl": 0.93,
+  "legPairOffset": 3,
+  "legMoveSpace": 0.8,
+  "legExtension": -10,
+  "legLength": 86,
+  "rippleScale": 6,
+  "landShake": 5,
+  "legSplashDamage": 520,
+  "legSplashRange": 42,
+  "visualElevation": 0.7,
+  "allowLegStep": true,
+  "immunities": [
+    "123sburn",
+    "melting",
+    "freezing",
+    "unmoving",
+    "123strike"
+  ],
+  "parts": [
+    {
+      "type": "shapePart",
+      "y": 0,
+      "hollow": true,
+      "circle": true,
+      "layer": 110,
+      "lightRadius": 90,
+      "lightColor": "FEFFB6",
+      "color": "FEFFB6",
+      "stroke": 12.5,
+      "strokeTo": 18.5,
+      "radiusTo": 63,
+      "radius": 63
+    },
+    {
+      "type": "shapePart",
+      "y": -200,
+      "hollow": true,
+      "circle": true,
+      "layer": 110,
+      "lightRadius": 90,
+      "lightColor": "FEFFB6",
+      "color": "FEFFB6",
+      "stroke": 12.5,
+      "strokeTo": 18.5,
+      "radiusTo": 63,
+      "radius": 63
+    },
+    {
+      "type": "shapePart",
+      "y": -150,
+      "hollow": true,
+      "circle": true,
+      "layer": 110,
+      "lightRadius": 90,
+      "lightColor": "FEFFB6",
+      "color": "FEFFB6",
+      "stroke": 12.5,
+      "strokeTo": 18.5,
+      "radiusTo": 63,
+      "radius": 63
+    },
+    {
+      "type": "shapePart",
+      "y": -100,
+      "hollow": true,
+      "circle": true,
+      "layer": 110,
+      "lightRadius": 90,
+      "lightColor": "FEFFB6",
+      "color": "FEFFB6",
+      "stroke": 12.5,
+      "strokeTo": 18.5,
+      "radiusTo": 63,
+      "radius": 63
+    },
+    {
+      "type": "shapePart",
+      "y": -50,
+      "hollow": true,
+      "circle": true,
+      "layer": 110,
+      "lightRadius": 90,
+      "lightColor": "FEFFB6",
+      "color": "FEFFB6",
+      "stroke": 12.5,
+      "strokeTo": 18.5,
+      "radiusTo": 63,
+      "radius": 63
+    },
+    {
+      "type": "HaloPart",
+      "y": 0,
+      "radius": 29,
+      "tri": true,
+      "layer": 110,
+      "color": "FEFFB6",
+      "lightRadius": 90,
+      "lightColor": "FEFFB6",
+      "haloRotateSpeed": 10.7,
+      "haloRadius": 62,
+      "haloRadiusTo": 62,
+      "stroke": 20,
+      "strokeTo": 2,
+      "shapes": 1,
+      "triLengthTo": 45,
+      "triLength": 105
+    },
+    {
+      "type": "HaloPart",
+      "y": 6,
+      "radius": 29,
+      "tri": true,
+      "layer": 110,
+      "color": "FEFFB6",
+      "lightRadius": 90,
+      "lightColor": "FEFFB6",
+      "haloRotateSpeed": 7.7,
+      "haloRadius": 62,
+      "haloRadiusTo": 62,
+      "stroke": 20,
+      "strokeTo": 2,
+      "shapes": 1,
+      "triLengthTo": 45,
+      "triLength": 105
+    },
+    {
+      "type": "HaloPart",
+      "y": 12,
+      "radius": 29,
+      "tri": true,
+      "layer": 110,
+      "color": "FEFFB6",
+      "lightRadius": 90,
+      "lightColor": "FEFFB6",
+      "haloRotateSpeed": 7.7,
+      "haloRadius": 62,
+      "haloRadiusTo": 62,
+      "stroke": 20,
+      "strokeTo": 2,
+      "shapes": 1,
+      "triLengthTo": 45,
+      "triLength": 105
+    },
+    {
+      "type": "HaloPart",
+      "y": 18,
+      "radius": 35,
+      "tri": true,
+      "layer": 110,
+      "color": "FEFFB6",
+      "lightRadius": 90,
+      "lightColor": "FEFFB6",
+      "haloRotateSpeed": 7.7,
+      "haloRadius": 62,
+      "haloRadiusTo": 62,
+      "stroke": 20,
+      "strokeTo": 2,
+      "shapes": 1,
+      "triLengthTo": 45,
+      "triLength": 105
+    },
+    {
+      "type": "HaloPart",
+      "y": -100,
+      "radius": 35,
+      "tri": true,
+      "layer": 110,
+      "color": "FEFFB6",
+      "lightRadius": 90,
+      "lightColor": "FEFFB6",
+      "haloRotateSpeed": 7.7,
+      "haloRadius": 62,
+      "haloRadiusTo": 62,
+      "stroke": 20,
+      "strokeTo": 2,
+      "shapes": 1,
+      "triLengthTo": 45,
+      "triLength": 105
+    },
+    {
+      "type": "HaloPart",
+      "y": -50,
+      "radius": 35,
+      "tri": true,
+      "layer": 110,
+      "color": "FEFFB6",
+      "lightRadius": 90,
+      "lightColor": "FEFFB6",
+      "haloRotateSpeed": 7.7,
+      "haloRadius": 62,
+      "haloRadiusTo": 62,
+      "stroke": 20,
+      "strokeTo": 2,
+      "shapes": 1,
+      "triLengthTo": 45,
+      "triLength": 105
+    },
+    {
+      "type": "HaloPart",
+      "y": -150,
+      "radius": 35,
+      "tri": true,
+      "layer": 110,
+      "color": "FEFFB6",
+      "lightRadius": 90,
+      "lightColor": "FEFFB6",
+      "haloRotateSpeed": 7.7,
+      "haloRadius": 62,
+      "haloRadiusTo": 62,
+      "stroke": 20,
+      "strokeTo": 2,
+      "shapes": 1,
+      "triLengthTo": 45,
+      "triLength": 105
+    },
+    {
+      "type": "HaloPart",
+      "y": -200,
+      "radius": 35,
+      "tri": true,
+      "layer": 110,
+      "color": "FEFFB6",
+      "lightRadius": 90,
+      "lightColor": "FEFFB6",
+      "haloRotateSpeed": 7.7,
+      "haloRadius": 62,
+      "haloRadiusTo": 62,
+      "stroke": 20,
+      "strokeTo": 2,
+      "shapes": 1,
+      "triLengthTo": 45,
+      "triLength": 105
+    },
+    {
+      "type": "HaloPart",
+      "y": 0,
+      "x": 0,
+      "radius": 40,
+      "tri": true,
+      "layer": 110,
+      "color": "FEFFB6",
+      "lightRadius": 90,
+      "lightColor": "FEFFB6",
+      "haloRotateSpeed": 7.7,
+      "haloRadius": 62,
+      "haloRadiusTo": 62,
+      "stroke": 20,
+      "strokeTo": 2,
+      "shapes": 1,
+      "triLengthTo": 45,
+      "triLength": 105
+    }
+
+],
+  "weapons": [
+    {
+      "name": "magic1",
+      "top": true,
+      "mirror": true,
+      "alternate": true,
+      "y": 34,
+      "x": 23,
+      "rotate": true,
+      "rotateSpeed": 3,
+      "inaccuracy": 11,
+      "shoot": {
+        "type": "shootPattern",
+        "shotDelay": 3,
+        "shots": 16
+      },
+      "shootY": 8,
+      "reload": 15,
+      "recoil": 0,
+      "velocityRnd": 0.4,
+      "ejectEffect": "none",
+      "shootSound": "Turrets/melt",
+      "bullet": {
+        "type": "LiquidBulletType",
+        "liquid": "slag",
+        "status": "123strike",
+        "lifetime": 166,
+        "puddleSize": 580,
+        "orbSize": 10.5,
+        "speed": 5,
+        "buildingDamageMultiplier": 0.09,
+        "damage": 69
+      }
+    },
+  {
+    name: magic1
+    layerOffset: 5
+    x: 0
+    y: -28
+    shadow: 76
+    shootY: 38
+    mirror: false
+    rotate: true
+    rotateSpeed: 0.8
+    reload: 210
+    recoil: -8
+    recoilTime: 160
+    heatColor: e65555
+    cooldownTime: 150
+    shoot: {
+      firstShotDelay: 30
+    }
+    shake: 20
+    parts: [
+      {
+        type: RegionPart
+        suffix: -ram-line
+        layer: 95
+        y: -27.25
+        moveY: 16
+        outline: false
+        progress: {
+          type: charge
+          op: curve
+          interp: pow5In
+        }
+        moves: [
+          {
+            progress: {
+              type: heat
+              op: curve
+              interp: pow3In
+            }
+            y: 16
+          }
+        ]
+      }
+      {
+        type: RegionPart
+        layer: 95.3
+        outline: false
+      }
+    ]
+    shootSound: Turrets/nuke
+    bullet: {
+      type: LaserBulletType
+      length: 800
+      laserAbsorb: false
+      largeHit: true
+      damage: 15
+      lifetime: 120
+      width: 180
+      colors: [
+        8D408F,
+        6A306B,
+        ffffff
+      ]
+      status: freezing
+      statusDuration: 200
+      sideLength: 100
+      sideWidth: 1
+      lightningSpacing: 60
+      lightningDelay: 6
+      lightningType: {
+        type: ExplosionBulletType
+        status: freezing
+        statusDuration: 200
+        killShooter: false
+        fragBullets: 66
+        fragBullet: {
+          type: RailBulletType
+          length: 65
+          damage: 69
+          pierceArmor: true
+          pierceEffect: impactReactorExplosion
+        }
+        hitSound: explosion
+        hitShake: 12
+        hitEffect: [
+          {
+            lightOpacity: 0
+            length: 60
+            lifetime: 160
+            particles: 20
+            colorFrom: 8D408F
+            colorTo: 8D408F
+            sizeFrom: 3
+            sizeTo: 0
+            interp: pow3Out
+            sizeInterp: pow2In
+          }
+          {
+            lightOpacity: 0
+            length: 55
+            lifetime: 70
+            particles: 32
+            colorFrom: 8D408F
+            colorTo: 8D408F
+            sizeFrom: 5
+            sizeTo: 0
+            interp: pow2Out
+            sizeInterp: pow2In
+          }
+          {
+            lightOpacity: 0
+            length: 80
+            lifetime: 30
+            particles: 22
+            colorFrom: 8D408F
+            colorTo: 8D408F
+            sizeFrom: 1
+            sizeTo: 0
+            interp: pow5Out
+            sizeInterp: pow3In
+          }
+          {
+            lightOpacity: 0
+            length: 70
+            lifetime: 40
+            particles: 22
+            colorFrom: 8D408F
+            colorTo: 8D408F
+            sizeFrom: 3
+            sizeTo: 0
+            interp: pow5Out
+            sizeInterp: pow3In
+          }
+          {
+            length: 80
+            line: true
+            lifetime: 30
+            particles: 8
+            colorTo: 8D408F
+            lenFrom: 7
+            lenTo: 0
+            strokeFrom: 3
+            strokeTo: 1
+            interp: pow2Out
+            sizeInterp: pow2In
+          }
+          {
+            type: WaveEffect
+            lifetime: 25
+            sizeFrom: 0
+            sizeTo: 60
+            strokeFrom: 5
+            strokeTo: 0
+            colorTo: e65555
+          }
+        ]
+      }
+    }
+  }
+  ],
+  "abilities": [
+    {
+      "type": "mindustry.entities.abilities.ForceFieldAbility",
+      "radius": 135,
+      "regen": 15,
+      "max": 7500,
+      "cooldown": 15
+    },
+    {
+    "type": "SpawnDeathAbility",
+    "amount": 2,
+    "faceOutwards": true,
+    "unit": "spark"
+    }
+  ]
+}

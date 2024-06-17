@@ -1,0 +1,84 @@
+type: ItemTurret
+squareSprite: false
+size: 4
+health: 17000
+armor: 240
+cooldownTime: 60
+range: 644
+rotateSpeed: 2
+reload: 15
+recoil: 1.5
+shoot: {
+  type: ShootAlternate
+  barrels: 4
+}
+targetGround: true
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
+shake: 2
+shootSound: Turrets/bang
+ammoTypes: {
+  titanium: {
+    damage: 777
+    speed: 5
+    drag: 0.01
+    rotateSpeed: 30
+    spin: 8
+    lifetime: 40
+    homingPower: 1
+    homingRange: 180
+    homingDelay: 4
+    collides: false
+    collidesTiles: false
+    collidesGround: true
+    hittable: false
+    absorbable: false
+    sprite: roboticants-sb3
+    width: 160
+    height: 160
+    shrinkY: 0
+    despawnEffect: flakExplosion
+    hitEffect: flakExplosion
+    fragBullets: 15
+    fragRandomSpread: 30
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragBullet: {
+      damage: 372
+      speed: 9
+      lifetime: 220
+      sprite: roboticants-sb3
+      collidesGround: true
+      homingPower: 10.1
+      rotateSpeed: 30
+      pierce: true
+      pierceCap: 200
+      spin: 18
+      homingRange: 440
+      width: 146
+      height: 146
+      shrinkY: 0
+      hitEffect: flakExplosion
+      trailInterval: 1
+      trailRotation: true
+      trailEffect: {
+        length: 0
+        lifetime: 60
+        sizeFrom: 8
+        sizeTo: 80
+        particles: 1
+        cone: 0
+        colorTo: 99D9EA
+      }
+    }
+  }
+}
+category: turret
+research: saw
+requirements: [
+  hardend-ant-steel/400
+  ant-steel/140
+  titanium/260
+]
+envEnabled: -1
+envDisabled: 4

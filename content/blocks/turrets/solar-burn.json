@@ -1,0 +1,50 @@
+{
+  "type": "ItemTurret",
+  "researchCostMultiplier": 0.1,
+  "size": 1,
+  "health": 1140,
+  "reload": 8,
+  "range": 690,
+  "maxAmmo": 1200,
+  "inaccuracy": 6,
+  "shots": 7,
+  "targetAir": true,
+  "targetGround": true,
+  "shootCone": 360,
+  "spread": 3,
+  "recoilAmount": 3,
+  "restitution": 0.5,
+  "rotateSpeed": 15,
+  "shootSound": "Turrets/melt",
+  "ammoPerShot": 2,
+  "ammoTypes": {
+    "coal": {
+      "type": "flakBulletType",
+      "lifetime": 90,
+      "damage": 108,
+      "speed": 27,
+      "serrations": 1,
+      "fromColor": "D44C4F",
+      "toColor": "D44C4F",
+      "length": 30,
+      "width": 50,
+      "sprite": roboticants-wave3
+      "hitEffect": "blastExplosion",
+      "shootEffect": "blastExplosion",
+      "pierce": true,
+      "smokeEffect": "hitBulletBig"
+    }
+  },
+  "requirements": [
+    {
+      "item": "thorium",
+      "amount": 150
+    },
+    {
+      "item": "ant-steel",
+      "amount": 37
+    }
+  ],
+  "category": "turret",
+  "research": "ant-sentry"
+}

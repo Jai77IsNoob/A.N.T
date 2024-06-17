@@ -1,0 +1,15 @@
+{
+"localizedName": "Mass Deestruction",
+"description": "The place where Crux and Malis had taken an impact to ??????? ???? ??????, Not even a single structure of theirs exists."
+"sector": 217,
+"captureWave": 177,
+"difficulty": 16,
+"planet": "serpulo",
+"allowLaunchLoadout": true,
+"allowLaunchSchematics": true,
+"addStartingItems": false
+"overrideLaunchDefaults": false
+"research": {
+"parent": "ground-zero"
+}
+}

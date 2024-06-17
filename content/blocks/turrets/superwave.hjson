@@ -1,0 +1,42 @@
+type: LiquidTurret
+health: 10000
+rotateSpeed: 5
+targetAir: true
+targetGround: true
+size: 4
+range: 450
+reload: 1
+shootCone: 360
+ammoUseEffect: none
+shootEffect: shootLiquid
+rotateSpeed: 10
+recoil: 0
+shots: 720
+alternate: false
+inaccuracy: 8
+spread: 16
+ammoTypes: {
+  water: {
+    type: liquidBulletType
+    liquid: water
+    lifetime: 170
+    speed: 6
+    knockback: 17.5
+    puddleSize: 216
+    orbSize: 37
+    drag: 0.002
+    ammoMultiplier: 47
+    statusDuration: 12
+    damage: 188
+  }
+}
+requirements: [
+  metaglass/250
+  lead/770
+  copper/600
+  titanium/180
+  thorium/300
+  ant-steel/100
+]
+category: turret
+research: ant-antibullet

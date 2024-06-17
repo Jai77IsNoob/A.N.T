@@ -1,0 +1,120 @@
+{
+    "type": "UnitFactory",
+    "health": 125000,
+    "size": 3,
+    "consumes": {
+        "power": 8.4
+    },
+    "plans": [
+        {
+            "unit": "AntSoldierIV",
+            "time": 2600,
+            "requirements": [
+                "titanium/1300",
+                "silicon/1000",
+                "thorium/1450",
+                "ant-steel/2500",
+                "hardend-ant-steel/1600"
+            ]
+        },
+        {
+            "unit": "the",
+            "time": 2540,
+            "requirements": [
+                "thorium/1200",
+                "hardend-ant-steel/1150",
+                "ant-steel/300",
+                "titanium/1200",
+                "surge-alloy/1000"
+            ]
+        },
+        {
+            "unit": "ghost",
+            "time": 1540,
+            "requirements": [
+                "silicon/666",
+                "hardend-ant-steel/550",
+                "dark-ant-steel/100",
+                "titanium/1000",
+                "thorium/1000"
+            ]
+        },
+        {
+            "unit": "spark",
+            "time": 1566,
+            "requirements": [
+                "titanium/180",
+                "silicon/100",
+                "thorium/450",
+                "ant-steel/155",
+                "surge-alloy/400"
+            ]
+        },
+        {
+            "unit": "ship",
+            "time": 1040,
+            "requirements": [
+                "thorium/9500",
+                "titanium/7500",
+                "hardend-ant-steel/980",
+                "dark-ant-steel/182",
+                "surge-alloy/150"
+            ]
+        },
+        {
+            "unit": "corvusghost",
+            "time": 4040,
+            "requirements": [
+                "thorium/1000",
+                "titanium/1500",
+                "hardend-ant-steel/1000",
+                "dark-ant-steel/500",
+                "surge-alloy/350"
+            ]
+        },
+        {
+            "unit": "tox6",
+            "time": 12040,
+            "requirements": [
+                "thorium/2000",
+                "titanium/2500",
+                "hardend-ant-steel/1500",
+                "dark-ant-steel/700",
+                "ant-steel/1000",
+                "surge-alloy/800"
+            ]
+        },
+        {
+            "unit": "void",
+            "time": 12040,
+            "requirements": [
+                "thorium/3000",
+                "titanium/5000",
+                "hardend-ant-steel/1800",
+                "dark-ant-steel/140",
+                "ant-steel/1665",
+                "surge-alloy/1850"
+            ]
+        },
+        {
+            "unit": "spit",
+            "time": 7040,
+            "requirements": [
+                "thorium/2800",
+                "titanium/2300",
+                "hardend-ant-steel/1200",
+                "ant-steel/900",
+                "surge-alloy/255"
+            ]
+        }
+    ],
+    "requirements": [
+        "lead/6235",
+        "copper/2500",
+        "thorium/3500",
+        "silicon/1600",
+        "hardend-ant-steel/300"
+    ],
+    "research": "AntFactoryIII",
+    "category": "units"
+}

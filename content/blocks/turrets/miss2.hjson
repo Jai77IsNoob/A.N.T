@@ -1,0 +1,93 @@
+type: PowerTurret
+size: 4
+health: 12000
+armor: 100
+consumes: {
+    power: 7.6
+}
+shootType:{
+    type: BasicBulletType
+      width: 0
+      height: 0
+      damage: 0
+      speed: 0
+spawnUnit: target3
+  }
+drawer:{
+ type: DrawTurret
+ basePrefix: roboticants-
+ parts: [
+{
+type: ShapePart
+progress: warmup
+mirror: false
+color: A4308F
+hollow: true
+sides: 5
+stroke: 2
+radius: 22
+layer: 110
+rotateSpeed: 3
+}
+{
+type: ShapePart
+progress: warmup
+mirror: false
+hollow: true
+color: A4308F
+sides: 5
+stroke: 2
+radius: 22
+layer: 110
+rotateSpeed: -4
+}
+{
+type: HaloPart
+progress: warmup
+color: 87ceeb
+hollow: false
+layer: 110
+shapes: 3
+haloRotation: 0
+haloRotateSpeed: 5
+haloRadius: 6
+radius: 5
+stroke: 1
+tri: true
+triLength: 25
+y: 0
+}
+{
+    type: RegionPart
+    suffix: -swarmil
+    progress: reload
+    colorTo: 00000000
+    color: ffffff
+    outline: false
+    under: true
+    mirror: false
+    layerOffset: -0.01
+}
+]
+
+}
+shootSound: Turrets/bang
+shootWarmupSpeed: 0.4
+shootCone: 360
+rotateSpeed: 0.8
+reload: 27
+inaccuracy: 24
+outlineColor: "A4308F"
+range: 683
+shootY: 0
+category: turret
+research: {
+    parent: miss
+}
+requirements: [
+  thorium/600
+  ant-steel/508
+  titanium/300
+  surge-alloy/100
+  metaglass/200
+]

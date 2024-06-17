@@ -1,0 +1,128 @@
+{
+  "type": "PowerTurret",
+  "size": 4,
+  "health": 14360,
+  "armor": 300
+  "range": 766,
+  "reload": 105,
+  "inaccuracy": 1.4,
+  "targetGround": true,
+  "recoil": 4,
+  "shake": 2,
+  "rotateSpeed": 5,
+  "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "roboticants-"
+  },
+  "shootSound": "Turrets/bang",
+  "chargeSound": "lasercharge",
+  "shoot": {
+    "firstShotDelay": 90
+  },
+  "consumes": {
+    "power": 14.7
+  },
+  "hasPower": true,
+  "shootType": {
+    "type": "BasicBulletType",
+    "sprite": "roboticants-wave3",
+    "chargeEffect": {
+      "type": "MultiEffect",
+      "effects": [
+        {
+          "type": "ParticleEffect",
+          "particles": 10,
+          "sizeFrom": 1,
+          "sizeTo": 77,
+          "length": 0,
+          "lifetime": 150,
+          "colorFrom": "ADF1FF",
+          "colorTo": "ADF1FF",
+          "cone": 360
+        }
+      ]
+    },
+    "explodeRange": 150,
+    "damage": 577,
+    "splashDamage": 500,
+    "splashDamageRadius": 107,
+    "hitShake": 26,
+    "height": 250,
+    "width": 250,
+    "speed": 4,
+    "collidesTiles": false,
+    "collidesGround": true,
+    "collidesAir": true,
+    "lifetime": 666,
+    "homingPower": 5.3,
+    "homingRange": 220,
+    "shrinkX": 0,
+    "shrinkY": 0,
+    "hitEffect": {
+      "type": "multiEffect",
+      "effects": [
+        {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 135,
+          "lifetime": 130,
+          "offset": 60,
+          "length": 115,
+          "cone": -360,
+          "strokeFrom": 0,
+          "strokeTo": 3.5,
+          "sizeFrom": 15,
+          "sizeTo": 0,
+          "colorFrom": "ADF1FF",
+          "colorTo": "ADF1FF"
+        }
+      ]
+    },
+    "despawnEffect": "massiveExplosion",
+    "shootEffect": "flakExplosion",
+    "pierce": true,
+    "pierceCap": 120,
+    "smokeEffect": "sparkExplosion",
+    "frontColor": "ADF1FF",
+    "backColor": "ADF1FF",
+    "lightColor": "ADF1FF",
+    "lightRadius": 90,
+    "fragBullets": 24,
+    "fragBullet": {
+      "type": "BasicBulletType",
+      "explodeRange": 20,
+      "pierce": true,
+      "pierceCap": 120,
+      "sprite": "roboticants-star1",
+      "status": "flashed",
+      "collidesTiles": false,
+      "collidesGround": true,
+      "collidesAir": true,
+      "height": 27,
+      "width": 27,
+      "shrinkX": 0,
+      "shrinkY": 0,
+      "spin": 7.4,
+      "homingPower": 1.13,
+      "homingRange": 70,
+      "lifetime": 200,
+      "speed": 4.8,
+      "damage": 333,
+      "splashDamage": 480,
+      "splashDamageRadius": 69,
+      "hitEffect": "unitShieldBreak",
+      "despawnEffect": "massiveExplosion",
+      "frontColor": "ADF1FF",
+      "backColor": "ADF1FF"
+    }
+  },
+  "requirements": [
+    "dark-ant-steel/700",
+    "plastanium/400",
+    "thorium/666",
+    "surge-alloy/666",
+    "hardend-ant-steel/666"
+  ],
+  "category": "turret",
+  "research": "gas"
+}

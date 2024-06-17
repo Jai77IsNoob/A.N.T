@@ -1,0 +1,44 @@
+type: ItemTurret
+squareSprite: false
+size: 4
+range: 500
+health: 6666
+armor: 66
+shootY: 0
+shootCone: 180
+reload: 45
+recoil: 0
+rotateSpeed: 0
+shoot: {
+  type: ShootBarrel
+  shots: 15
+  shotDelay: 2
+  barrels: [
+    8, 0, 0,
+    0, 8, 0, 
+    -8, 0, 0, 
+    0, -8, 0
+  ]
+}
+ammoPerShot: 6
+shootSound: Turrets/rocket1
+ammoUseEffect: none
+shootEffect: none
+outlineIcon: false
+ammoTypes: {
+  titanium: {
+    spawnUnit: roboticants-target2
+  }
+}
+drawer: DrawDefault
+category: turret
+research: solar-burn
+requirements: [
+  ant-steel/500
+  silicon/280
+  thorium/400
+  titanium/100
+  surge-alloy/200
+]
+envEnabled: -1
+envDisabled: 4

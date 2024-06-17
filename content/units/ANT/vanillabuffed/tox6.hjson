@@ -1,0 +1,263 @@
+research: corvusghost
+
+groundLayer: 75
+type: legs
+legSpeed: 0.18
+maxStretch: 1.5
+legCount: 6
+legBaseOffset: 15
+legLengthScl: 0.93
+legPairOffset: 3
+legMoveSpace: 0.8
+legExtension: -10
+legLength: 86
+rippleScale: 6
+landShake: 3
+legSplashDamage: 120
+legSplashRange: 42
+visualElevation: 0.7
+allowLegStep": true
+rotateSpeed: 1.45
+stepShake: 5.75
+fogRadius: 150
+hitSize: 56
+deflectSound: Turrets/def2
+chanceDeflect: 666
+deathSound: Turrets/beam
+
+itemCapacity: 1450
+health: 150000
+armor: 244
+
+lightColor: 665c9f
+lightOpacity: 0.7
+lightRadius: 230
+
+immunities: [ sapped, spore-slowed, wet, 123strike, 123sburn, unmoving, melting, freezing, flashed ]
+
+abilities: [
+{
+    type: ShieldArcAbility
+    region: roboticants-toxshield
+    radius: 25
+    angle: 360
+    width: 5.5
+    y: 0
+
+    cooldown: 400
+    regen: 36.5
+    max: 185000
+    }
+{
+    type: ShieldArcAbility
+    region: roboticants-toxshield
+    radius: 65
+    angle: 120
+    width: 8
+    y: -7
+
+    cooldown: 400
+    regen: 36.5
+    max: 185000
+    }
+]
+
+weapons: [
+{
+    name: magic1
+    layerOffset: -0.001
+    rotationLimit: 360
+    rotate: true
+    x: 3
+    y: 9
+
+    reload: 4.5
+
+    shootSound: sap
+
+bullet: {
+    type: SapBulletType
+    knockback: -3
+    length: 680
+    width: 1.69
+
+    buildingDamageMultiplier: 0.1
+
+    sapStrength: 1.25
+    lifetime: 9
+    damage: 287
+
+    shootEffect: shootSmall
+    despawnEffect: none
+
+    hitColor: bf92f9
+    color: bf92f9
+
+    lightColor: bf92f9
+    lightOpacity: 0.7
+    lightRadius: 17
+}
+    }
+
+{
+    name: magic1
+    rotationLimit: 60
+    rotateSpeed: 2
+    rotate: true
+    shadow: 12
+    recoil: 3
+    shootY: 7
+    shake: 17
+    x: 11
+    y: -5
+
+    reload: 90
+
+    ejectEffect: casing1
+
+    shootSound: shootBig
+
+    shoot: {
+        type: ShootSpread
+        spread: 17
+        shots: 2
+    }
+
+    bullet: {
+        type: ShrapnelBulletType
+        length: 115
+        width: 25
+
+        serrationSpaceOffset: 60
+        serrationFadeOffset: 0
+        serrationLenScl: 7
+        serrationWidth: 6
+        serrations: 10
+        damage: 320
+
+        shootEffect: sparkShoot
+        smokeEffect: sparkShoot
+
+        fromColor: bf92f9
+        toColor: 6d56bf
+        }
+    }
+
+{
+    name: toxcan
+    rotationLimit: 360
+    rotateSpeed: 0.4
+    mirror: false
+    rotate: true
+    shadow: 30
+    shootY: 22
+    recoil: 10
+    shake: 32
+    y: -14
+    x: 0
+
+    inaccuracy: 15
+    reload: 600
+
+    ejectEffect: casing3
+
+    shootSound: artillery
+
+    shootStatusDuration: 750
+    shootStatus: regenlvl255
+shoot: {
+    shotDelay: 60
+    shots: 15
+    }
+
+    bullet: {
+        type: ArtilleryBulletType
+        collidesTiles: true
+        collidesAir: true
+        despawnShake: 17
+        knockback: 4.8
+        collides: true
+        hitShake: 17
+        height: 65
+        width: 65
+        spin: 2.7
+        sprite: roboticants-sb3
+
+
+        buildingDamageMultiplier: 8.5
+
+        splashDamageRadius: 90
+        lightningDamage: 120
+        lightningLength: 20
+        statusDuration: 720
+        ammoMultiplier: 4
+        splashDamage: 320
+        lightOpacity: 0.6
+        fragLifeMin: 0.3
+        lightRadius: 40
+        fragBullets: 28
+        status: 123sburn
+        lifetime: 500
+        lightning: 9
+        damage: 180
+        speed: 1.45
+
+        smokeEffect: shootBigSmoke2
+        hitEffect: sapExplosion
+
+        frontColor: bf92f9
+        backColor: 6d56bf
+
+        lightningColor: bf92f9
+        lightColor: 665c9f
+        lightOpacity: 0.7
+        lightRadius: 160
+
+        trailLength: 9
+        trailWidth: 5
+        trailSize: 7
+
+        fragBullet: { 
+            type: ArtilleryBulletType
+            collidesTiles: false
+            collidesAir: true
+            spin: 3
+            despawnShake: 15
+            knockback: 10.8
+            hitShake: 15
+            height: 40
+            width: 40
+            sprite: roboticants-sb2
+            frontColor: bf92f9
+            backColor: 6d56bf
+
+            homingRange: 340
+            homingPower: 10.1
+            splashDamageRadius: 75
+            lightningDamage: 150
+            statusDuration: 500
+            lightningLength: 6
+            lightOpacity: 0.5
+            splashDamage: 210
+            lightRadius: 30
+            status: melting
+            lifetime: 177
+            lightning: 2
+            damage: 480
+            speed: 5.9
+
+            smokeEffect: shootBigSmoke2
+            hitEffect: sapExplosion
+
+            frontColor: bf92f9
+            backColor: 6d56bf
+
+            lightningColor: bf92f9
+            lightColor: 665c9f
+            lightOpacity: 0.7
+            lightRadius: 90
+            }
+        }
+    }
+]
+

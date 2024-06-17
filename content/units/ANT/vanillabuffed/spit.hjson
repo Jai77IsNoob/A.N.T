@@ -1,0 +1,102 @@
+research: tox6
+
+groundLayer: 75
+type: legs
+legSpeed: 0.28
+maxStretch: 1.5
+legCount: 6
+legBaseOffset: 15
+legLengthScl: 0.93
+legPairOffset: 3
+legMoveSpace: 0.8
+legExtension: -10
+legLength: 86
+rippleScale: 6
+landShake: 3
+legSplashDamage: 120
+legSplashRange: 42
+visualElevation: 0.7
+allowLegStep": true
+rotateSpeed: 1.45
+stepShake: 5.75
+fogRadius: 150
+hitSize: 56
+deflectSound: Turrets/def2
+chanceDeflect: 666
+deathSound: Turrets/beam
+
+itemCapacity: 1450
+health: 177000
+armor: 365
+
+lightColor: F2BF0D
+lightOpacity: 0.7
+lightRadius: 230
+
+immunities: [ sapped, spore-slowed, wet, 123strike, 123sburn, unmoving, melting, freezing, flashed ]
+
+abilities: [
+{
+    type: ShieldArcAbility
+    region: roboticants-toxshield
+    radius: 65
+    angle: -160
+    width: 5.5
+    y: 7
+
+    cooldown: 400
+    regen: 36.5
+    max: 75000
+    }
+{
+    type: ShieldArcAbility
+    region: roboticants-toxshield
+    radius: 65
+    angle: 120
+    width: 8
+    y: -7
+
+    cooldown: 400
+    regen: 36.5
+    max: 75000
+    }
+]
+
+weapons: [
+{
+    name: magic1
+    layerOffset: -0.001
+    rotationLimit: 360
+    rotate: true
+    x: 3
+    y: 9
+
+    reload: 4.5
+
+    shootSound: Turrets/saphit1
+
+bullet: {
+    type: SapBulletType
+    knockback: 25
+    length: 680
+    width: 1.69
+
+    buildingDamageMultiplier: 0.1
+
+    sapStrength: 1.25
+    lifetime: 9
+    damage: 477
+
+    shootEffect: shootSmall
+    despawnEffect: none
+
+    hitColor: F2BF0D
+    color: F2BF0D
+
+    lightColor: F2BF0D
+    lightOpacity: 0.7
+    lightRadius: 17
+}
+    }
+]
+

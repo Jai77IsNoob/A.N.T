@@ -1,0 +1,121 @@
+type: ItemTurret
+squareSprite: false
+size: 4
+health: 16000
+armor: 140
+cooldownTime: 60
+range: 544
+rotateSpeed: 2
+reload: 15
+recoil: 1.5
+shoot: {
+  type: ShootAlternate
+  barrels: 4
+}
+targetGround: true
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
+shake: 2
+shootSound: Turrets/bang
+ammoTypes: {
+  copper: {
+    damage: 400
+    speed: 6
+    drag: 0.01
+    rotateSpeed: 30
+    spin: 10
+    lifetime: 28
+    homingPower: 1
+    homingRange: 180
+    homingDelay: 5
+    collides: false
+    collidesTiles: false
+    collidesGround: true
+    hittable: false
+    absorbable: false
+    sprite: roboticants-sb
+    width: 360
+    height: 360
+    shrinkY: 0
+    frontColor: E60023
+    backColor: E60023
+    despawnEffect: flakExplosion
+    hitEffect: flakExplosion
+    fragBullets: 7
+    fragRandomSpread: 47
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragBullet: {
+      damage: 172
+      speed: 9
+      lifetime: 177
+      sprite: roboticants-sb2
+      collidesGround: true
+      homingPower: 10.1
+      rotateSpeed: 30
+      pierce: true
+      pierceCap: 40
+      spin: 18
+      homingRange: 440
+      width: 246
+      height: 246
+      shrinkY: 0
+      frontColor: E60023
+      backColor: E60023
+      hitEffect: flakExplosion
+      trailInterval: 1
+      trailRotation: true
+      trailEffect: {
+        length: 0
+        lifetime: 20
+        sizeFrom: 8
+        sizeTo: 8
+        particles: 1
+        cone: 0
+        colorTo: D61921
+    fragBullets: 7
+    fragRandomSpread: 47
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragBullet: {
+      damage: 105
+      speed: 4
+      lifetime: 666
+      sprite: roboticants-sb3
+      collidesGround: true
+      homingPower: 10.1
+      rotateSpeed: 30
+      pierce: true
+      pierceCap: 666
+      spin: 22
+      homingRange: 440
+      width: 146
+      height: 146
+      shrinkY: 0
+      frontColor: E60023
+      backColor: E60023
+      hitEffect: flakExplosion
+      trailInterval: 1
+      trailRotation: true
+      trailEffect: {
+        length: 0
+        lifetime: 10
+        sizeFrom: 8
+        sizeTo: 8
+        particles: 1
+        cone: 0
+        colorTo: D61921
+      }
+    }
+  }
+}
+}
+}
+category: turret
+research: sw
+requirements: [
+  ant-steel/500
+  thorium/150
+]
+envEnabled: -1
+envDisabled: 4

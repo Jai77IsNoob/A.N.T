@@ -1,0 +1,18 @@
+type: Wall
+health: 666666
+size: 4
+armor: 666
+deflectSound: Turrets/def1
+flashHit: true
+flashColor: DC63DE
+insulated: true
+absorbLasers: true
+chanceDeflect: 666666666
+schematicPriority: 10
+requirements: [
+  dark-ant-steel/80
+  thorium/270
+  hardend-ant-steel/80
+]
+category: defense
+research: dark-wall2

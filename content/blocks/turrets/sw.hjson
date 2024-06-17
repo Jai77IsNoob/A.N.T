@@ -1,0 +1,87 @@
+type: ItemTurret
+squareSprite: false
+size: 4
+health: 7000
+armor: 40
+cooldownTime: 60
+range: 544
+rotateSpeed: 2
+reload: 15
+recoil: 1.5
+shoot: {
+  type: ShootAlternate
+  barrels: 4
+}
+targetGround: true
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
+shake: 2
+shootSound: Turrets/bang
+ammoTypes: {
+  titanium: {
+    damage: 377
+    speed: 6
+    drag: 0.01
+    rotateSpeed: 30
+    spin: 8
+    lifetime: 48
+    homingPower: 1
+    homingRange: 180
+    homingDelay: 40
+    collides: false
+    collidesTiles: false
+    collidesGround: true
+    hittable: false
+    absorbable: false
+    sprite: roboticants-s
+    width: 160
+    height: 160
+    shrinkY: 0
+    frontColor: 99D9EA
+    backColor: 99D9EA
+    despawnEffect: flakExplosion
+    hitEffect: flakExplosion
+    fragBullets: 3
+    fragRandomSpread: 30
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragBullet: {
+      damage: 72
+      speed: 9
+      lifetime: 220
+      sprite: roboticants-s
+      collidesGround: true
+      homingPower: 10.1
+      rotateSpeed: 30
+      pierce: true
+      pierceCap: 28
+      spin: 18
+      homingRange: 340
+      width: 146
+      height: 146
+      shrinkY: 0
+      frontColor: 99D9EA
+      backColor: 99D9EA
+      hitEffect: flakExplosion
+      trailInterval: 1
+      trailRotation: true
+      trailEffect: {
+        length: 0
+        lifetime: 20
+        sizeFrom: 8
+        sizeTo: 8
+        particles: 1
+        cone: 0
+        colorTo: 99D9EA
+      }
+    }
+  }
+}
+category: turret
+research: ant-sentry
+requirements: [
+  ant-steel/400
+  thorium/100
+]
+envEnabled: -1
+envDisabled: 4

@@ -1,0 +1,119 @@
+type: ItemTurret
+liquidCapacity: 240
+health: 14000
+reload: 170
+armor: 400
+rotateSpeed: 2
+recoil: 3
+shootCone: 30
+range: 560
+size: 4
+targetAir: true
+targetGround: true
+shootSound: Turrets/boom2
+ammoPerShot: 1
+shootWarmupSpeed: 0.01
+linearWarmup: true
+cooldownTime: 120
+minWarmup: 0.9
+liquidCapacity: 30
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
+shoot: {
+  type: ShootBarrel
+  barrels: [
+    0, 0, 15,
+    0, 0, 0,
+    0, 0, -15
+  ]
+  shots: 3
+  shotDelay: 8
+}
+ammoTypes: {
+  coal: {
+    collidesGround: true
+    damage: 60
+    speed: 5
+    lifetime: 210
+    homingPower: 10
+    homingRange: 300
+    homingDelay: 17
+    sprite: roboticants-miss1
+    width: 22
+    height: 69
+    trailInterval: 2
+    trailEffect: {
+      type: WaveEffect
+      lifetime: 18
+      sizeFrom: 20
+      sizeTo: 5
+      strokeFrom: 10
+      strokeTo: 0
+      colorFrom: F9FF3C
+      colorTo: F9FF3C
+    }
+    despawnHit: true
+    fragBullets: 11
+    fragBullet: {
+      type: BulletType
+      collidesGround: true
+      speed: 1
+      damage: 69
+      lifetime: 41
+      collides: false
+      hittable: false
+      absorbable: false
+      despawnHit: true
+      fragBullets: 7
+      fragBullet: {
+        type: ExplosionBulletType
+        collidesGround: true
+        killShooter: false
+        splashDamage: 277
+        splashDamageRadius: 99
+      }
+    }
+    hitEffect: [
+      {
+        type: WaveEffect
+        lifetime: 45
+        sizeFrom: 150
+        sizeTo: 20
+        strokeFrom: 0
+        strokeTo: 4
+        colorTo: F9FF3C
+        interp: pow2Out
+      }
+      {
+        line: true
+        lifetime: 15
+        particles: 15
+        length: -80
+        baseLength: 100
+        strokeFrom: 3
+        strokeTo: 0
+        lenFrom: 0
+        lenTo: 8
+        colorFrom: F9FF3C
+        colorTo: F9FF3C
+        interp: pow2Out
+        sizeInterp: linear
+      }
+    ]
+  }
+}
+canOverdrive: true
+coolantMultiplier: 4.8
+coolant: {
+  type: ConsumeLiquid
+  liquid: water
+  amount: 0.01
+}
+category: turret
+research: flare
+requirements: [
+  copper/800
+  graphite/160
+  thorium/300
+  ant-steel/200
+]

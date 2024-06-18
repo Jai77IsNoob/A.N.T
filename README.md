@@ -5,4 +5,4 @@ this mod is for a server and a friend of mine, but idc who really uses this, If 
 ## Coming soon
 New planet where A.N.T comes from while trying to take over other planets.
 Texture redos
-Balancinga and much more.
+Balancing and much more.

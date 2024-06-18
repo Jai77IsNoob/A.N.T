@@ -3,6 +3,6 @@ this mod is for a server and a friend of mine, but idc who really uses this, If 
 [cyan] Expect Updates every so often.
 
 ## Coming soon
-New planet where A.N.T comes from while trying to take over other planets.
-Texture redos
+New planet where A.N.T comes from while trying to take over other planets,
+Texture redos,
 Balancing and much more.

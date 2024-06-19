@@ -1,0 +1,26 @@
+apply plugin: "java"
+
+sourceCompatibility = 16
+sourceSets.main.java.srcDirs = ["src/"]
+
+repositories{
+    mavenCentral()
+    maven{ url "https://raw.githubusercontent.com/Anuken/MindustryMaven/master/repository" }
+    maven{ url 'https://jitpack.io' }
+}
+
+ext{
+    arcVersion = "v146"
+}
+
+dependencies{
+    implementation "com.github.Anuken.Arc:arc-core:$arcVersion"
+    implementation "com.github.Anuken.Arc:natives-desktop:$arcVersion"
+}
+
+task run(dependsOn: classes, type: JavaExec){
+    mainClass = "modupdater.ModUpdater"
+    classpath = sourceSets.main.runtimeClasspath
+    standardInput = System.in
+    systemProperties System.properties
+}

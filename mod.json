@@ -1,8 +1,11 @@
 {
+"repo": "Jai77IsNoob/A.N.T",
 "name": "roboticants",
 "displayName": "Robotic A.N.T Units",
 "author": "The 123 Gods",
 "description": "A mod for a server of mine, If you see the shadow tier units looking weird, its probably because mindustry doesn't allow transparent units... NOTE that this mod isnt 100% balanced for vanilla",
-"version": "0.0.0.0.0.0.0.69",
+"version": "44",
+"hasScripts": true,
+ hasJava": false,
 "minGameVersion": "136"
 }

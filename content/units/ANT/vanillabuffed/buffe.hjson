@@ -1,0 +1,85 @@
+research: tox6
+
+type: flying
+speed: 7.5
+accel: 0.058
+drag: 0.017
+fogRadius: 77
+hitSize: 15
+flying: true
+deathSound: Turrets/bombdrop
+
+itemCapacity: 600
+health: 15000
+armor: 150
+
+lightColor: F2BF0D
+lightOpacity: 0.7
+lightRadius: 230
+
+immunities: [ sapped, spore-slowed, wet, 123strike, 123sburn, unmoving, melting, freezing, flashed ]
+
+abilities: [
+{
+    type: EnergyFieldAbility
+    statusDuration: 540
+    maxTargets: 40
+    damage: 30
+    buildingDamageMultiplier: 0.05
+    reload: 2
+    range: 100
+    x: 0
+    y: 0
+    }
+{
+    type: ShieldArcAbility
+    region: roboticants-toxshield
+    radius: 35
+    angle: 360
+    width: 8
+    y: -7
+
+    cooldown: 400
+    regen: 15.5
+    max: 7500
+    }
+]
+
+weapons: [
+{
+    name: magic1
+    layerOffset: -0.001
+    rotationLimit: 360
+    rotate: true
+    x: 0
+    y: 0
+
+    reload: 4.5
+
+    shootSound: Turrets/saphit1
+
+bullet: {
+    type: SapBulletType
+    knockback: -15.4
+    length: 450
+    width: 0.05
+
+    buildingDamageMultiplier: 0.5
+
+    sapStrength: 1.25
+    lifetime: 9
+    damage: 60
+
+    shootEffect: titanExplosion
+    despawnEffect: shootSmall
+
+    hitColor: F2BF0D
+    color: 242424
+
+    lightColor: 242424
+    lightOpacity: 0.7
+    lightRadius: 17
+}
+    }
+]
+

@@ -1,0 +1,21 @@
+{
+    "type": "BuildTurret",
+    "category": "effect",
+    "range": 777,
+    "size": 4,
+    "health": 18000,
+    "armor": 50,
+    "buildSpeed": 21.7,
+    "consumes": {
+		"power": 5,
+	},
+    "drawer": {
+        "type": "DrawTurret"
+    },
+    "requirements": [
+        "ant-steel/400",
+        "lead/1400",
+        "thorium/705",
+        "titanium/250"
+	]
+}

@@ -7,5 +7,6 @@
 "version": "1.12.2",
 "hidden": "false",
 "minGameVersion": "136",
+"hideBrowser":false,
 "dependencies": [ ]
 }

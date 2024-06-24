@@ -8,4 +8,5 @@
  dependencies: [ ]
  minGameVersion: "136"
  hidden: false
+"hideBrowser":false
 }
